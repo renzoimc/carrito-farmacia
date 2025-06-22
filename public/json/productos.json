@@ -1,0 +1,11 @@
+[
+  { "id": 1, "nombre": "Vitamina E", "precio": 30.00 , "imagen": "img1.jpg"},
+  { "id": 2, "nombre": "Jabon Carbon Activado", "precio": 9.90 , "imagen": "img2.jpg"},
+  { "id": 3, "nombre": "Cargador Blanco", "precio": 12.00 , "imagen": "img3.jpg"},
+  { "id": 4, "nombre": "Crema Goicochea", "precio": 30.90 , "imagen": "img4.jpg"},
+  { "id": 5, "nombre": "Espuma para Afeitar Gillette", "precio": 18.90 , "imagen": "img5.jpg"},
+  { "id": 6, "nombre": "Vaso Licuadora", "precio": 32.00 , "imagen": "img6.jpg"},
+  { "id": 7, "nombre": "Crema Nivea", "precio": 33.90 , "imagen": "img7.jpg"},
+  { "id": 8, "nombre": "Suplemento Nutricional Mg.", "precio": 11.90 , "imagen": "img8.jpg"},
+  { "id": 9, "nombre": "Suplemento Nutricional Zinc", "precio": 14.90 , "imagen": "img9.jpg"}
+]
