@@ -10,8 +10,8 @@ import { CarritoService } from '../../services/carrito';
   styleUrl: './catalogo-principal.css'
 })
 export class CatalogoPrincipal implements OnInit{
-  private productoService = inject(ProductoService); //injectar servicio Producto
-  private carritoService = inject(CarritoService);
+  private productoService = inject(ProductoService); //inyectar el servicio productoService
+  private carritoService = inject(CarritoService); // inyectar el servicio carritoService
   productos: ProductoModel[] = [];
 
   ngOnInit(): void {
@@ -29,6 +29,7 @@ export class CatalogoPrincipal implements OnInit{
     })
   }
 
+  // metodo agregar un producto al carrito de compras.
   agregarProducto(item: ProductoModel){
     this.carritoService.agregar(item);
   }

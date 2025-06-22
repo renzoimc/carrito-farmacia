@@ -13,5 +13,4 @@ export class ProductoService {
     return this.http.get<ProductoModel[]>(this.url);
   }
 
-  //constructor() { }
 }

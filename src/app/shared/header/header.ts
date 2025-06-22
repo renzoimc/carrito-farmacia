@@ -10,5 +10,8 @@ import { CarritoService } from '../../services/carrito';
   styleUrl: './header.css'
 })
 export class Header {
+  // Se inyecta el servicio CarritoService 
+  // Al ser variable publica, me permite acceder desde el header.html
+  // Permite acceder a las funciones del carrito de compras (como cantidad)
   public carritoService = inject(CarritoService);
 }
